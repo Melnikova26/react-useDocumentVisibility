@@ -1,0 +1,33 @@
+{
+  "name": "@milya054/react-usedocumentvisibility",
+	"version": "1.0.0",
+	"type": "module",
+	"source": "src/index.js",
+	"exports": {
+		"require": "./dist/index.cjs",
+		"default": "./dist/index.modern.js"
+	},
+	"main": "./dist/index.cjs",
+	"module": "./dist/index.module.js",
+	"unpkg": "./dist/index.umd.js",
+	"scripts": {
+		"build": "microbundle",
+		"dev": "microbundle watch"
+	},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Melnikova26/react-useDocumentVisibility.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Melnikova26/react-useDocumentVisibility/issues"
+  },
+  "homepage": "https://github.com/Melnikova26/react-useDocumentVisibility#readme",
+  "devDependencies": {
+    "microbundle": "^0.15.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
