@@ -1,6 +1,6 @@
 {
   "name": "@milya505/react-usedocumentvisibility",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "type": "module",
   "source": "src/index.js",
   "exports": {
