@@ -1,1 +1,1 @@
-export * as useDocumentVisibility from './components/useDocumentVisibility';
+export { useDocumentVisibility } from "./components/useDocumentVisibility";
